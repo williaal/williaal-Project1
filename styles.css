@@ -13,8 +13,8 @@
 }
 
 .slides {
-    height: 70vh;
-    width: 95%;
+    height: 750px;
+    width: 90%;
     overflow: hidden;
     position: relative;
     border: 8px solid #800020;
