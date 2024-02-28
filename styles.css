@@ -5,8 +5,12 @@
   }
 
 
+.basic {
+    background:#f6e4d9;
+}
+
 .Flower-Carousel {
-    background: #fffaf0;
+    background: #f6e4d9;
     min-height: 100vh;
     display: grid;
     place-items: center;
