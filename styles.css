@@ -2,7 +2,7 @@
     --primary: #fffaf0;
     --secondary: #f6e4d9;
     --accent: #800020;
-    
+
 }
 
 .basic {
@@ -187,4 +187,35 @@
 /* Ensure the content below the navbar is pushed down */
 .body-content {
     margin-top: 80px; /* Adjust this value based on your navbar height */
+}
+
+.youtube {
+    text-align: center;
+    background-color:#f6e4d9;
+    padding: 20px;
+}
+
+.button {
+    background-color: #fffaf0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.btn-primary {
+    background-color: #f6e4d9;
+    color:black;
+}
+
+.btn-primary:hover {
+    background-color: #800020; /* Change this to the desired hover color */
+}
+
+.flowerform {
+    background-color: #fffaf0;
+    padding-bottom: 20px;
+    border: solid #800020;
+}
+
+.orderform {
+    padding-bottom: 20px;
 }

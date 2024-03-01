@@ -30,7 +30,7 @@
                       <a class="nav-link" href="#insta"><div class="Burgundy">Instagram</div></a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#"><div class="Burgundy">Pricing</div></a>
+                      <a class="nav-link" href="#pricing"><div class="Burgundy">Pricing</div></a>
                     </li>
                   </ul>
                   <span class="Burgundy merriweather-light-italic">
@@ -109,14 +109,65 @@
           target="_blank">jewellfloralaz</a>) • Instagram photos and videos</p></div></blockquote> <script async src="//www.instagram.com/embed.js"></script>
         </div>
 </section>
+
 <!--Section 4 will be where an inquiry for her can be made-->
-    <section>
+    <section class="orderform" id="pricing">
+      <div class="container mt-5 flowerform">
+        <h2 class="Burgundy ">Flower Quote Form</h2>
+        <h6 class="Burgundy merriweather-regular-italic">Fill out this form and I will contact you to discuss your request further!</h6>
+        <br>
+        <form class="Burgundy merriweather-bold">
+          <!-- First Name -->
+          <div class="form-group">
+            <label for="firstName">First Name</label>
+            <input type="text" class="form-control" id="firstName" placeholder="Enter your first name" required>
+          </div>
+      
+          <!-- Last Name -->
+          <div class="form-group">
+            <label for="lastName">Last Name</label>
+            <input type="text" class="form-control" id="lastName" placeholder="Enter your last name" required>
+          </div>
+      
+          <!-- Email -->
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+          </div>
+      
+          <!-- Budget -->
+          <div class="form-group">
+            <label for="budget">Budget Range</label>
+            <select class="form-control" id="budget" required>
+              <option value="$50-$200">$50 - $200</option>
+              <option value="$200-$500">$200 - $500</option>
+              <option value="$500-$1000">$500-$1000</option>
+              <option value="$1000+">$1000 and above</option>
+            </select>
+          </div>
+      
+          <!-- Description -->
+          <div class="form-group">
+            <label for="description">Description of Flowers</label>
+            <textarea class="form-control" id="description" rows="4" placeholder="Describe the flowers you want" required></textarea>
+          </div>
+      
+          <!-- Submit Button -->
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
 
     </section>
 
+<!--Section 5 is where a wedding video including her flowers can be found-->
+<section class="youtube">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/abQ-AzV1xnA?si=7C103XpybFGe7zv1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</section>
 <!--Here is where the footer will be-->
     <footer>
-
+      <div class="button d-flex justify-content-center align-items-center">
+        <a class="btn btn-primary" href="#aboutme" role="button">Go Back to the Top</a>
+      </div>
     </footer>
 </body>
 </html>
