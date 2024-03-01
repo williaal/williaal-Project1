@@ -2,30 +2,66 @@
     --primary: #fffaf0;
     --secondary: #f6e4d9;
     --accent: #800020;
-  }
+}
 
 
 .basic {
-    background: white;
+    background: #f6e4d9;
 }
 
 .instagram {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-  }
+    background: #fffaf0;
+    padding: 20px;
+}
 
 .Burgundy {
-    color:#800020
+    color: #800020
 }
+
+.about {
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-style: normal;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 60px 0px;
+    background-color: #fffaf0;
+}
+
+.main {
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.main img {
+    max-width: 275px;
+    max-height: auto;
+    padding-right: 30px;
+}
+
+.about-text {
+    width: 550 px;
+}
+
+.about-text h1 {
+    color:#800020;
+    font-size: 80px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
 
 .Flower-Carousel {
     background: #f6e4d9;
     min-height: 100vh;
     display: grid;
     place-items: center;
+    padding: 40px;
 }
 
 .slides {
@@ -78,4 +114,57 @@
     50% {
         opacity: 0;
     }
+}
+
+
+
+/* Google Fonts Classes*/
+
+
+.merriweather-light {
+    font-family: "Merriweather", serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.merriweather-regular {
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.merriweather-bold {
+    font-family: "Merriweather", serif;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.merriweather-black {
+    font-family: "Merriweather", serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.merriweather-light-italic {
+    font-family: "Merriweather", serif;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.merriweather-regular-italic {
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.merriweather-bold-italic {
+    font-family: "Merriweather", serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.merriweather-black-italic {
+    font-family: "Merriweather", serif;
+    font-weight: 900;
+    font-style: italic;
 }
