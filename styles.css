@@ -6,7 +6,19 @@
 
 
 .basic {
-    background:#f6e4d9;
+    background: white;
+}
+
+.instagram {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+
+.Burgundy {
+    color:#800020
 }
 
 .Flower-Carousel {
