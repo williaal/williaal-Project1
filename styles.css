@@ -4,7 +4,6 @@
     --accent: #800020;
 }
 
-
 .basic {
     background: #f6e4d9;
 }
@@ -42,6 +41,7 @@
     max-width: 275px;
     max-height: auto;
     padding-right: 30px;
+    padding-top: 30px;
 }
 
 .about-text {
@@ -65,8 +65,9 @@
 }
 
 .slides {
-    height: 750px;
+    height: 800px;
     width: 90%;
+    margin: 0 auto;
     overflow: hidden;
     position: relative;
     border: 8px solid #800020;
@@ -167,4 +168,22 @@
     font-family: "Merriweather", serif;
     font-weight: 900;
     font-style: italic;
+}
+
+/* Add a class to your navigation bar container for styling */
+.navbar-container {
+    position: fixed; /* Fixed position to keep it at the top */
+    width: 100%; /* Full width */
+    z-index: 1000; /* Higher z-index to make it appear on top of other elements */
+}
+
+/* Add background color and other styles as needed */
+.navbar-container .navbar {
+    background-color: #f6e4d9; /* Set your desired background color */
+    /* Add other styles like padding, border-radius, etc. */
+}
+
+/* Ensure the content below the navbar is pushed down */
+.body-content {
+    margin-top: 80px; /* Adjust this value based on your navbar height */
 }
