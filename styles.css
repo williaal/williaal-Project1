@@ -171,22 +171,18 @@
     font-style: italic;
 }
 
-/* Add a class to your navigation bar container for styling */
 .navbar-container {
-    position: fixed; /* Fixed position to keep it at the top */
-    width: 100%; /* Full width */
-    z-index: 1000; /* Higher z-index to make it appear on top of other elements */
+    position: fixed; 
+    width: 100%; 
+    z-index: 1000;
 }
 
-/* Add background color and other styles as needed */
 .navbar-container .navbar {
-    background-color: #f6e4d9; /* Set your desired background color */
-    /* Add other styles like padding, border-radius, etc. */
+    background-color: #f6e4d9; 
 }
 
-/* Ensure the content below the navbar is pushed down */
 .body-content {
-    margin-top: 80px; /* Adjust this value based on your navbar height */
+    margin-top: 80px; 
 }
 
 .youtube {
@@ -207,7 +203,7 @@
 }
 
 .btn-primary:hover {
-    background-color: #800020; /* Change this to the desired hover color */
+    background-color: #800020;
 }
 
 .flowerform {
